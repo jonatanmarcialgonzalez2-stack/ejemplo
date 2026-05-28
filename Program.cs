@@ -6,7 +6,7 @@ class Program
     {
         while (true)
         {
-            Console.WriteLine("\n--- Calculadora Básica ---");
+            Console.WriteLine("\n--- Calculadora Básica equipo ---");
             Console.Write("Número 1: ");
             double n1 = Convert.ToDouble(Console.ReadLine());
 
