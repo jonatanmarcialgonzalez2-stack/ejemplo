@@ -18,6 +18,7 @@ class Program
             Console.WriteLine("2. Restar");
             Console.WriteLine("3. Multiplicar");
             Console.WriteLine("4. Dividir");
+            Console.WriteLine("5. Salir");
             Console.Write("Opción: ");
 
             int op = int.Parse(Console.ReadLine());
@@ -25,19 +26,30 @@ class Program
 
             switch (op)
             {
-                case 1: resultado = n1 + n2; break;
-                case 2: resultado = n1 - n2; break;
-                case 3: resultado = n1 * n2; break;
-                case 4:
-                    if (n2 != 0) resultado = n1 / n2;
-                    else Console.WriteLine("No se puede dividir entre 0");
+                case 1:
+                    resultado = n1 + n2;
                     break;
+                case 2:
+                    resultado = n1 - n2;
+                    break;
+                case 3:
+                    resultado = n1 * n2;
+                    break;
+                case 4:
+                    if (n2 != 0)
+                        resultado = n1 / n2;
+                    else
+                        Console.WriteLine("❌ No se puede dividir entre 0");
+                    break;
+                case 5:
+                    Console.WriteLine("Saliendo...");
+                    return;
                 default:
-                    Console.WriteLine("Opción no válida");
+                    Console.WriteLine("Opción no válida.");
                     continue;
             }
 
-            Console.WriteLine($"Resultado: {resultado}");
+            Console.WriteLine($"\nResultado: {resultado}");
         }
     }
 }
