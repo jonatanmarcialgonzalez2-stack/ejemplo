@@ -1,15 +1,23 @@
 # Calculadora Básica en C#
 
-Proyecto simple de consola hecho en C# para practicar Git y GitHub.
-Incluye operaciones básicas: suma, resta, multiplicación y división.
+Proyecto sencillo en C# para practicar Git y GitHub.
 
-## Cómo ejecutarlo
-1. Abrir en Visual Studio
-2. Ejecutar con F5
-3. Elegir la operación y escribir los números
+## Funcionalidades
 
-## Ideas para mejorar (para colaboradores)
-- Agregar más operaciones
-- Crear un menú más visual
-- Guardar historial de operaciones
-- Convertirlo a una app con interfaz (WinForms o WPF)
+- Sumar
+- Restar
+- Multiplicar
+- Dividir
+
+## Cómo ejecutar
+
+1. Abrir el proyecto en Visual Studio.
+2. Compilar con **Ctrl + Shift + B**
+3. Ejecutar con **Ctrl + F5**
+
+## Cómo contribuir
+
+- Clonar el repositorio
+- Crear una rama nueva (`git checkout -b nueva-funcion`)
+- Hacer los cambios
+- Subir la rama y abrir un Pull Request
